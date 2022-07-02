@@ -45,7 +45,6 @@ The same thing happens in the case of the deployment job. The runner triggers th
 # What is AWS?
 AWS stands for Amazon Web Services. It is a platform owned by Amazon, and this platform allows you access to a broad range of cloud computing services.
 
-Cloud computing – I thought you said no big words? Most times businesses and even individual developers build applications just so other people can use them. For that reason, these applications have to be available on the interwebs.
 
 
 # Prerequisites
@@ -64,3 +63,5 @@ After you download the code, create a virtualenv and install the requirements vi
 pip install -r requirements.txt
 
 ```
+# How to Configure GitHub Actions
+The goal is to have GitHub trigger a build and run our tests each time we push or open a pull request on main/master. We just pushed our change to main, but GitHub Actions didn't trigger the build or run our tests.
