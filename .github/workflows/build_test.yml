@@ -45,5 +45,5 @@ jobs:
         application_name: django-github-actions-aws
         environment_name: django-github-actions-aws
         version_label: 12348
-        region: "us-east-2"
+        region: "us-east-1"
         deployment_package: deploy.zip
